@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://dsvntt.github.io/react-social-media/static/css/main.2c9765f0.css",
-    "main.js": "https://dsvntt.github.io/react-social-media/static/js/main.807142bf.js",
+    "main.js": "https://dsvntt.github.io/react-social-media/static/js/main.8dea4d9a.js",
     "static/media/preloader.gif": "https://dsvntt.github.io/react-social-media/static/media/preloader.8760a8a10fb4f5188924.gif",
     "static/media/instagramLogo.svg": "https://dsvntt.github.io/react-social-media/static/media/instagramLogo.8eb286619e3cff41078cf8e908a1d28b.svg",
     "static/media/profile.png": "https://dsvntt.github.io/react-social-media/static/media/profile.5faf09a7795d28bf5a2b.png",
@@ -13,10 +13,10 @@
     "static/media/facebookLogo.svg": "https://dsvntt.github.io/react-social-media/static/media/facebookLogo.8a1453c6d11ffa834d5bddf9cfb47daf.svg",
     "index.html": "https://dsvntt.github.io/react-social-media/index.html",
     "main.2c9765f0.css.map": "https://dsvntt.github.io/react-social-media/static/css/main.2c9765f0.css.map",
-    "main.807142bf.js.map": "https://dsvntt.github.io/react-social-media/static/js/main.807142bf.js.map"
+    "main.8dea4d9a.js.map": "https://dsvntt.github.io/react-social-media/static/js/main.8dea4d9a.js.map"
   },
   "entrypoints": [
     "static/css/main.2c9765f0.css",
-    "static/js/main.807142bf.js"
+    "static/js/main.8dea4d9a.js"
   ]
 }
