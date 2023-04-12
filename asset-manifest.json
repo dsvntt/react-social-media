@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-social-media/static/css/main.e65bfaaf.css",
-    "main.js": "/react-social-media/static/js/main.99907fad.js",
+    "main.css": "/react-social-media/static/css/main.065d5df1.css",
+    "main.js": "/react-social-media/static/js/main.fc7722da.js",
     "static/media/preloader.gif": "/react-social-media/static/media/preloader.8760a8a10fb4f5188924.gif",
     "static/media/instagramLogo.svg": "/react-social-media/static/media/instagramLogo.8eb286619e3cff41078cf8e908a1d28b.svg",
     "static/media/profile.png": "/react-social-media/static/media/profile.5faf09a7795d28bf5a2b.png",
@@ -12,11 +12,11 @@
     "static/media/youtubeLogo.svg": "/react-social-media/static/media/youtubeLogo.b2d92c99ce252a4bf08fee27a8d06119.svg",
     "static/media/facebookLogo.svg": "/react-social-media/static/media/facebookLogo.8a1453c6d11ffa834d5bddf9cfb47daf.svg",
     "index.html": "/react-social-media/index.html",
-    "main.e65bfaaf.css.map": "/react-social-media/static/css/main.e65bfaaf.css.map",
-    "main.99907fad.js.map": "/react-social-media/static/js/main.99907fad.js.map"
+    "main.065d5df1.css.map": "/react-social-media/static/css/main.065d5df1.css.map",
+    "main.fc7722da.js.map": "/react-social-media/static/js/main.fc7722da.js.map"
   },
   "entrypoints": [
-    "static/css/main.e65bfaaf.css",
-    "static/js/main.99907fad.js"
+    "static/css/main.065d5df1.css",
+    "static/js/main.fc7722da.js"
   ]
 }
