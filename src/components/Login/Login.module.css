@@ -1,0 +1,112 @@
+.loginContainer {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: -22vh;
+}
+
+.background {
+  width: 430px;
+  height: 520px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+.shape {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.shape:first-child {
+  background: linear-gradient(135deg, #8fc1e3 0%, #5a9ed3 100%);
+  left: -80px;
+  top: -80px;
+}
+
+.shape:last-child {
+  background: linear-gradient(135deg, #f2f4f7 0%, #b8c7da 100%);
+  right: -80px;
+  bottom: -80px;
+}
+
+.form {
+  height: 520px;
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.13);
+  position: relative;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 50px 35px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.formHeading {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.formLabel {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 60px;
+}
+
+.emailInput,
+.passwordInput {
+  margin-top: 30px;
+}
+
+.formSummaryError {
+  margin-top: 20px;
+  color: #f08080;
+  text-align: center;
+}
+
+.buttonDiv {
+  text-align: center;
+  margin-top: auto;
+}
+
+.formButton {
+  width: 70%;
+  background-color: #8fc1e3;
+  color: #080710;
+  padding: 15px 0;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.captchaPhoto{
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.noOverflow {
+  overflow: hidden;
+}

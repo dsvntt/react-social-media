@@ -1,0 +1,50 @@
+.item {
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: left;
+  padding: 20px;
+  box-shadow: 1px 1px 3px #ddd;
+}
+
+.item img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+}
+
+.message {
+  font-size: 19px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.blueIcon {
+  color: #8fc1e3;
+}
+
+.likesButton,
+.commentButton {
+  display: flex;
+  align-items: center;
+  color: #777;
+  font-size: 16px;
+}
+
+.likesButton {
+  margin-right: 10px;
+}
+
+.likes,
+.comments {
+  margin-left: 5px;
+}

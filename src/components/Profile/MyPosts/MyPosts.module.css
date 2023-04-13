@@ -1,0 +1,21 @@
+.item img {
+  width: 50px;
+}
+
+.postBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+
+.posts {
+  margin-top: 10px;
+}
+
+.addNewPostButton {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,37 @@
+body {
+  font-family: Hack, monospace;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.appWrapper {
+  display: grid;
+
+  grid-template-areas:
+    'h h'
+    'c c';
+
+  grid-template-rows: 100px 1fr;
+  grid-template-columns: 2fr 10fr;
+
+  margin: 0 auto;
+}
+
+.appWrapperContent {
+  grid-area: c;
+}
+
+ul li a {
+  text-decoration: none;
+  all: unset;
+}
+
+.profileBackgroundImg {
+  background-image: url('./assets/images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}

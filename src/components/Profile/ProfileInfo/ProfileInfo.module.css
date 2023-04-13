@@ -1,0 +1,132 @@
+.profilePage {
+  display: flex;
+}
+
+.profilePageLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 4%;
+  margin-right: 0%;
+}
+
+.fullName {
+  font-weight: bold;
+  margin-bottom: 3%;
+  font-size: 40px;
+  text-align: center;
+}
+
+.mainPhoto {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 3%;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.photoInput {
+  display: none;
+}
+
+.iconsContainer {
+  display: flex;
+  align-items: center;
+  margin-left: -90px;
+}
+
+.socialMediaIcon {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.editButton {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.profileStatus {
+  margin-top: 3%;
+}
+
+.statusWrapper {
+  display: flex;
+}
+
+.status {
+  position: relative;
+  font-weight: 800;
+  padding: 30px;
+  margin-top: 50px;
+  margin-left: 60px;
+  width: 400px;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  word-wrap: break-word;
+}
+
+.status:after {
+  position: absolute;
+  content: '”';
+  color: rgba(255, 255, 255, 1);
+  font-size: 10rem;
+  line-height: 0;
+  bottom: -43px;
+  right: 30px;
+}
+
+.editMode {
+  position: relative;
+  border: none;
+  margin: 0;
+  margin-bottom: -4px;
+  resize: none;
+  overflow: hidden;
+  outline: none;
+  font-weight: 800;
+  font-size: 16px;
+  font-family: Hack, monospace;
+  width: 400px;
+  word-wrap: break-word;
+}
+
+.profilePageRight {
+  flex: 5;
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  margin-top: 10%;
+  padding: 5%;
+  width: 400px;
+  margin: 2% auto;
+  max-width: 100%;
+  margin-top: 4%;
+}
+
+.aboutMe b {
+  margin-top: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .status:after {
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .status:after {
+    color: rgba(0, 0, 0, 1);
+  }
+}

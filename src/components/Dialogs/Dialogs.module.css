@@ -1,0 +1,47 @@
+.dialogs {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.dialogsContainer {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 20px;
+}
+
+.dialogsItems {
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+}
+
+.messagesTextareaContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.messagesContainer {
+  height: 500px;
+  overflow-y: auto;
+}
+
+.messages {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.addMessageForm {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.addMessageForm button {
+  display: block;
+  margin: 0 auto;
+}

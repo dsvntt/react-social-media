@@ -1,0 +1,15 @@
+.logoutText {
+  text-align: center;
+  margin-top: 8%;
+  font-weight: 600;
+  font-size: xx-large;
+}
+
+.textGray {
+  color: #8f8f8f;
+}
+
+.textBlue {
+  color: #8fc1e3;
+  margin-top: 20px;
+}

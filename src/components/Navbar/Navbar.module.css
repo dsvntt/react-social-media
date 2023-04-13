@@ -1,0 +1,49 @@
+.navbar {
+  grid-area: h;
+  background-color: #f2f4f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 16px;
+}
+
+.menuItems {
+  list-style: none;
+  display: flex;
+}
+.menuItems li {
+  margin: 50px;
+}
+
+.navbar p {
+  text-decoration: none;
+  color: #8f8f8f;
+  font-size: 24px;
+  font-weight: 400;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.navbar p::before {
+  content: attr(data-item);
+  transition: 0.5s;
+  color: #8fc1e3;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  overflow: hidden;
+}
+.navbar p:hover::before {
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar li .activeMenuItem p {
+  color: #8fc1e3;
+}
